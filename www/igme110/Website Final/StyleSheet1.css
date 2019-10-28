@@ -1,8 +1,12 @@
 ﻿body {
     font-family: Helvetica, Arial, sans-serif;
     background-color: lightgrey;
-
-
+    background: url("apexBackground2.jpg");
+    background-repeat:repeat-y;
+    background-position: center;
+    background-attachment:fixed;
+    background-size:101%;
+    background-position-y:85px;
 }
 .topBar {
     overflow: visible;
@@ -35,6 +39,7 @@
     padding-right:10px;
     color: whitesmoke;
     font-size: 30px;
+    font-size: 2vw;
 }
 button{
     text-align:center;
@@ -58,12 +63,16 @@ h1{
     padding: 0px 10px;
 }
 h2{
+    line-height: .1em;
     font-size: 35px;
     text-align: center;
 }
 .images{
     display:block;
-    width:50%;
+    width:65%;
     margin-left:auto;
     margin-right:auto;
+}
+.mainImgs{
+    margin-top: 60px;
 }
