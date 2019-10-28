@@ -1,0 +1,35 @@
+html {
+font-size: 10px;
+font-family: 'Open Sans', sans-serif;
+background-color: gray;
+line-height: 1.1em;
+}
+h1{
+    font-size: 60px;
+    text-align: center;
+    border-color: gray;
+}
+.page2p1{
+    font-size: 13px;
+    color: whitesmoke;
+    text-align: right;
+}
+.image1{
+    float: left;
+}
+.image2{
+    float: right;
+    padding: 10px 10px 10px 10px;
+}
+/*
+.image2:hover{
+/*background: url(Spaghetti2.jpg); /*Didnt work*
+}*/
+p{
+    font-size: 13px;
+    color: whitesmoke;
+}
+h2{
+    font-size: 40px;
+    text-align: center;
+}
