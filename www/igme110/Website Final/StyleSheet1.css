@@ -49,6 +49,7 @@ button{
     outline:none !important;
 }
 p {
+
     margin-left:20%;
     margin-right: 20% ;
     text-align: center;
@@ -62,6 +63,13 @@ h1{
     margin: 100px 30px 55px 50px;
     padding: 0px 10px;
 }
+.pCurrency {
+    margin-left: 10%;
+    margin-right: 10%;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 25px;
+}
 h2{
     line-height: .1em;
     font-size: 35px;
@@ -72,6 +80,14 @@ h2{
     width:65%;
     margin-left:auto;
     margin-right:auto;
+}.imagesL{
+    display:block;
+    width:50%;
+float:left;
+}.imagesR{
+    display:block;
+    width:50%;
+float:right;
 }
 .mainImgs{
     margin-top: 60px;
